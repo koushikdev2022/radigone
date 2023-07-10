@@ -1,0 +1,181 @@
+{
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"700x700"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea",
+            "modal": false
+        }
+    },
+
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "title": "text",
+            "heading": "text",
+            "sub_title": "text",
+            "button_name": "text",
+            "button_url": "text"
+        }
+    },
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"700x700"
+                }
+            },
+            "heading": "text",
+            "description": "textarea",
+            "button_name": "text",
+            "button_url": "text"
+        }
+    },
+    "service": {
+        "builder": true,
+        "name": "Service Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"100x100"
+                }
+            },
+            "title": "text",
+            "modal": true
+        }
+    },
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "element": {
+            "counter_digit": "text",
+            "sub_title": "text",
+            "modal": true
+        }
+    },
+
+    "subscriber": {
+        "builder": false,
+        "name": "Subscriber Section"
+    },
+
+    "team": {
+        "builder": true,
+        "name": "Team Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"270x330"
+                }
+            },
+            "name": "text",
+            "designation": "text",
+            "facebook_link": "text",
+            "twitter_link": "text",
+            "instagram_link": "text",
+            "modal": true
+        }
+
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"170x170"
+                }
+            },
+            "name": "text",
+            "quote": "textarea",
+            "modal": true
+        }
+
+    },
+    "brand": {
+        "builder": true,
+        "name": "Brand Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"185x65"
+                }
+            },
+            "name": "text",
+            "modal": true
+        }
+
+    },
+    "footer": {
+        "builder": true,
+        "name": "Footer Section",
+        "content": {
+            "copyright": "text",
+            "description": "textarea"
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "heading": "text",
+            "description": "textarea",
+            "contact_form_heading": "text",
+            "google_map_key" : "text",
+            "latitude": "text",
+            "longitude": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "notice": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User Survey Notice",
+        "content": {
+            "description": "textarea"
+        }
+    }
+}
+

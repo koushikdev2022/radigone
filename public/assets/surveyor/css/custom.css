@@ -1,0 +1,30 @@
+
+.deposit-confirm-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.deposit-confirm-card .thumb {
+    width: 40%;
+    padding-right: 20px;
+    border-right:1px solid #e5e5e5
+}
+.deposit-confirm-card .content {
+    width: 60%;
+    padding-left: 30px;
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .deposit-confirm-card .thumb {
+        width: 100%;
+        padding-right: 0;
+        border: none;
+    }
+    .deposit-confirm-card .content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 30px
+    }
+}
